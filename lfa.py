@@ -62,24 +62,24 @@ veiculos = {
 
 class Fornecedora:
     def __init__(self):
-        self.estoque_pneus = 200
-        self.estoque_latarias = 100
-        self.estoque_bancos = 1123
-        self.estoque_motores = 19
-        self.estoque_baterias = 20
-        self.estoque_freios = 53
-        self.estoque_suspensoes = 70
-        self.estoque_direcoes_eletricas = 20
-        self.estoque_direcoes_mecanicas = 36
-        self.estoque_direcoes_hidraulicas = 15
-        self.estoque_vidros = 3000
-        self.estoque_portas = 520
-        self.estoque_chassi = 802
-        self.estoque_ar_condicionado = 20
-        self.estoque_farois = 433
-        self.estoque_retrovisor = 100
-        self.estoque_cambio_manual = 99
-        self.estoque_cambio_automatico = 80
+        self.estoque_pneus = random.randint(50, 200)  # Randomly generate values for the stock
+        self.estoque_latarias = random.randint(20, 100)
+        self.estoque_bancos = random.randint(500, 1123)
+        self.estoque_motores = random.randint(5, 30)
+        self.estoque_baterias = random.randint(10, 20)
+        self.estoque_freios = random.randint(20, 53)
+        self.estoque_suspensoes = random.randint(35, 70)
+        self.estoque_direcoes_eletricas = random.randint(10, 20)
+        self.estoque_direcoes_mecanicas = random.randint(20, 36)
+        self.estoque_direcoes_hidraulicas = random.randint(5, 15)
+        self.estoque_vidros = random.randint(1500, 3000)
+        self.estoque_portas = random.randint(260, 520)
+        self.estoque_chassi = random.randint(400, 802)
+        self.estoque_ar_condicionado = random.randint(10, 20)
+        self.estoque_farois = random.randint(216, 433)
+        self.estoque_retrovisor = random.randint(50, 100)
+        self.estoque_cambio_manual = random.randint(49, 99)
+        self.estoque_cambio_automatico = random.randint(40, 80)
 
 
     def pedir_pecas(self, tipo, quantidade):
@@ -160,24 +160,24 @@ class LinhaProducao:
         self.pilha_carros_finalizados = []
         self.pilha_carros_em_producao = []
 
-        self.estoque_pneus = 400
-        self.estoque_latarias = 200
-        self.estoque_bancos = 3000
-        self.estoque_motores = 4
-        self.estoque_baterias = 300
-        self.estoque_freios = 500
-        self.estoque_suspensoes = 700
-        self.estoque_direcoes_eletricas = 20
-        self.estoque_direcoes_mecanicas = 20
-        self.estoque_direcoes_hidraulicas = 20
-        self.estoque_vidros = 1000
-        self.estoque_portas = 500
-        self.estoque_chassi = 1000
-        self.estoque_ar_condicionado = 30
-        self.estoque_farois = 400
-        self.estoque_retrovisor = 200
-        self.estoque_cambio_manual = 200
-        self.estoque_cambio_automatico = 200
+        self.estoque_pneus = random.randint(100, 500)
+        self.estoque_latarias = random.randint(50, 300)
+        self.estoque_bancos = random.randint(500, 3000)
+        self.estoque_motores = random.randint(1, 10)
+        self.estoque_baterias = random.randint(100, 500)
+        self.estoque_freios = random.randint(200, 1000)
+        self.estoque_suspensoes = random.randint(300, 1000)
+        self.estoque_direcoes_eletricas = random.randint(10, 50)
+        self.estoque_direcoes_mecanicas = random.randint(10, 50)
+        self.estoque_direcoes_hidraulicas = random.randint(10, 50)
+        self.estoque_vidros = random.randint(500, 1500)
+        self.estoque_portas = random.randint(250, 750)
+        self.estoque_chassi = random.randint(500, 1500)
+        self.estoque_ar_condicionado = random.randint(10, 50)
+        self.estoque_farois = random.randint(200, 800)
+        self.estoque_retrovisor = random.randint(100, 400)
+        self.estoque_cambio_manual = random.randint(100, 300)
+        self.estoque_cambio_automatico = random.randint(100, 300)
 
         self.dia = 1
 
@@ -713,9 +713,9 @@ while pilha_dias:
         print("Cronograma de montagens finalizado!\n")
 
         if (not linha.pilha_carros_em_producao):
-            print("Fábrica conseguiu realizar todo o processo de montagem!")
+            print("Fábrica conseguiu realizar todo o processo de montagem!\n")
         else:
-            print("Fábrica não conseguiu atingir a cota de veículos montados nos dias!")
+            print("Fábrica não conseguiu atingir a cota de veículos montados nos dias!\n")
 
         input("Aperte ENTER para fechar a fábrica...")
         os.system("cls")
