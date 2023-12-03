@@ -1,0 +1,127 @@
+
+==============================================================
+Relatório Diário - Dia 1:
+==============================================================
+Carros Finalizados: 4
+Detalhes:
+
+Sedan:
+
+Hatch:
+Hatch, direcao eletrica, 1, 4 portas, ar condicionado
+
+SUV:
+
+Minivan:
+Minivan, direcao hidraulica, 1, 2 portas, ventilacao
+
+Fusca:
+Fusca, direcao eletrica, 1, 4 portas, ar condicionado
+Fusca, direcao eletrica, 1, 4 portas, ar condicionado
+
+Carros em Produção: 1
+Detalhes:
+- Tipo: Fusca, Modelo: MODELO D - Em produção
+==============================================================
+
+==============================================================
+Relatório Diário - Dia 2:
+==============================================================
+Carros Finalizados: 6
+Detalhes:
+
+Sedan:
+Sedan, direcao hidraulica, 1, 2 portas, ventilacao
+
+Hatch:
+Hatch, direcao hidraulica, 1, 2 portas, ventilacao
+Hatch, direcao eletrica, 1, 4 portas, ar condicionado
+
+SUV:
+
+Minivan:
+
+Fusca:
+Fusca, direcao mecanica, 1, 4 portas, ventilacao
+Fusca, direcao eletrica, 1, 4 portas, ar condicionado
+Fusca, direcao eletrica, 1, 4 portas, ar condicionado
+
+Carros em Produção: 0
+Detalhes:
+==============================================================
+
+==============================================================
+Relatório Diário - Dia 3:
+==============================================================
+Carros Finalizados: 4
+Detalhes:
+
+Sedan:
+
+Hatch:
+Hatch, direcao eletrica, 1, 4 portas, ar condicionado
+
+SUV:
+SUV, direcao hidraulica, 1, 2 portas, ventilacao
+
+Minivan:
+Minivan, direcao eletrica, 1, 4 portas, ar condicionado
+
+Fusca:
+Fusca, direcao eletrica, 1, 4 portas, ar condicionado
+
+Carros em Produção: 1
+Detalhes:
+- Tipo: Minivan, Modelo: MODELO C - Em produção
+==============================================================
+
+==============================================================
+Relatório Diário - Dia 4:
+==============================================================
+Carros Finalizados: 6
+Detalhes:
+
+Sedan:
+Sedan, direcao hidraulica, 1, 2 portas, ventilacao
+
+Hatch:
+
+SUV:
+SUV, direcao eletrica, 1, 4 portas, ar condicionado
+
+Minivan:
+Minivan, direcao hidraulica, 1, 2 portas, ventilacao
+Minivan, direcao eletrica, 1, 4 portas, ar condicionado
+
+Fusca:
+Fusca, direcao eletrica, 1, 4 portas, ar condicionado
+Fusca, direcao eletrica, 1, 4 portas, ar condicionado
+
+Carros em Produção: 0
+Detalhes:
+==============================================================
+
+==============================================================
+Relatório Diário - Dia 5:
+==============================================================
+Carros Finalizados: 3
+Detalhes:
+
+Sedan:
+Sedan, direcao eletrica, 1, 4 portas, ar condicionado
+
+Hatch:
+Hatch, direcao eletrica, 1, 4 portas, ar condicionado
+
+SUV:
+
+Minivan:
+
+Fusca:
+Fusca, direcao eletrica, 1, 4 portas, ar condicionado
+
+Carros em Produção: 2
+Detalhes:
+- Tipo: SUV, Modelo: MODELO C - Em produção
+- Tipo: SUV, Modelo: MODELO D - Em produção
+==============================================================
